@@ -22,5 +22,7 @@ config.vm.box "private_network", ip:192.168.10.100"
 end
 ```
 - To clean up all the resources that was created dusring vm creation process `vagrant destroy`
+- Run the vagrant again `vagrant up`
+- Access the running vm `vagrant ssh`
 - To install a program `sudo apt-get install file_name`
 - To test the private network setup got the browser and type in the ip: `192.168.10.100`
